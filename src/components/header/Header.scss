@@ -1,0 +1,12 @@
+@import "src/index";
+
+.navbar {
+  > .navbar-brand {
+    > .navbar-item {
+      > .home-logo {
+        width: 124px;
+        height: auto;
+      }
+    }
+  }
+}
