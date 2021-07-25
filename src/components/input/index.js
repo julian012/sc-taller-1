@@ -6,6 +6,7 @@ import './Input.scss';
 const Input = ({ placeholder, icon, formValue, register, type }) => {
 	return (
 		<div className="custom-input__container">
+			<div className="label">{formValue}</div>
 			<p className="control has-icons-right">
 				<input {...register(formValue)} className="input is-rounded" type={type} placeholder={placeholder} />
 				<span className="icon is-small is-right">
