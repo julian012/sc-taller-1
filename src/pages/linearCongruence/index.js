@@ -13,7 +13,6 @@ const LinearCongruence = () => {
 	const [dataTable, setDataTable] = useState([]);
 	const { register, handleSubmit } = useForm();
 	const onSubmit = (data) => {
-		console.log(data);
 		setDataTable(generateData(data));
 	};
 
